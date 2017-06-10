@@ -14,14 +14,14 @@
 ```objective-c
 // 把 amr 格式的音频文件转化为 wav 格式的音频文件
 [AudioConverter convertAmrToWavAtPath:<#amrFilePath#> wavSavePath:<#wavSavePath#> synchronize:<#synchronize#> completion:^(BOOL success, NSString * _Nullable resultPath) {
-  	// 转化结果回调
-  	
+  // 转化结果回调
+  
 }];
 
 // 把 wav 格式的音频文件转化为 amr 格式的音频文件
 [AudioConverter convertWavToAmrAtPath:<#wavFilePath#> amrSavePath:<#amrSavePath#> synchronize:<#synchronize#> completion:^(BOOL success, NSString * _Nullable resultPath) {
-    // 转化结果回调
-  	
+  // 转化结果回调
+  
 }];
 ```
 
