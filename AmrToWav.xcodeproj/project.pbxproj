@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F4F28871EEC231400ACE041 /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F28861EEC231400ACE041 /* wav.mm */; };
+		9F4F288A1EEC23B500ACE041 /* AudioConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F28891EEC23B500ACE041 /* AudioConverter.mm */; };
+		9F75FBFD1EEC0F4100BC7817 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F75FBFC1EEC0F4100BC7817 /* main.m */; };
+		9F75FC001EEC0F4100BC7817 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F75FBFF1EEC0F4100BC7817 /* AppDelegate.m */; };
+		9F75FC031EEC0F4100BC7817 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F75FC021EEC0F4100BC7817 /* ViewController.m */; };
+		9F75FC061EEC0F4100BC7817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F75FC041EEC0F4100BC7817 /* Main.storyboard */; };
+		9F75FC081EEC0F4100BC7817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F75FC071EEC0F4100BC7817 /* Assets.xcassets */; };
+		9F75FC0B1EEC0F4100BC7817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F75FC091EEC0F4100BC7817 /* LaunchScreen.storyboard */; };
+		9F75FC141EEC103B00BC7817 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F75FC131EEC103B00BC7817 /* AVFoundation.framework */; };
+		9F75FC241EEC212900BC7817 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F75FC181EEC212900BC7817 /* amrFileCodec.mm */; };
+		9F75FC261EEC212900BC7817 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F75FC1C1EEC212900BC7817 /* libopencore-amrnb.a */; };
+		9F75FC271EEC212900BC7817 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F75FC1D1EEC212900BC7817 /* libopencore-amrwb.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F4F28851EEC231400ACE041 /* wav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		9F4F28861EEC231400ACE041 /* wav.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
+		9F4F28881EEC23B500ACE041 /* AudioConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioConverter.h; sourceTree = "<group>"; };
+		9F4F28891EEC23B500ACE041 /* AudioConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioConverter.mm; sourceTree = "<group>"; };
+		9F75FBF81EEC0F4100BC7817 /* AmrToWav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmrToWav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F75FBFC1EEC0F4100BC7817 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F75FBFE1EEC0F4100BC7817 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F75FBFF1EEC0F4100BC7817 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F75FC011EEC0F4100BC7817 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F75FC021EEC0F4100BC7817 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F75FC051EEC0F4100BC7817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F75FC071EEC0F4100BC7817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F75FC0A1EEC0F4100BC7817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F75FC0C1EEC0F4100BC7817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F75FC131EEC103B00BC7817 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9F75FC171EEC212900BC7817 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		9F75FC181EEC212900BC7817 /* amrFileCodec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		9F75FC1C1EEC212900BC7817 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		9F75FC1D1EEC212900BC7817 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		9F75FC1F1EEC212900BC7817 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		9F75FC201EEC212900BC7817 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		9F75FC221EEC212900BC7817 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		9F75FC231EEC212900BC7817 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F75FBF51EEC0F4100BC7817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F75FC141EEC103B00BC7817 /* AVFoundation.framework in Frameworks */,
+				9F75FC271EEC212900BC7817 /* libopencore-amrwb.a in Frameworks */,
+				9F75FC261EEC212900BC7817 /* libopencore-amrnb.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F75FBEF1EEC0F4100BC7817 = {
+			isa = PBXGroup;
+			children = (
+				9F75FBFA1EEC0F4100BC7817 /* AmrToWav */,
+				9F75FBF91EEC0F4100BC7817 /* Products */,
+				9F75FC121EEC103B00BC7817 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F75FBF91EEC0F4100BC7817 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F75FBF81EEC0F4100BC7817 /* AmrToWav.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F75FBFA1EEC0F4100BC7817 /* AmrToWav */ = {
+			isa = PBXGroup;
+			children = (
+				9F75FC151EEC212900BC7817 /* AudioConverter */,
+				9F75FBFE1EEC0F4100BC7817 /* AppDelegate.h */,
+				9F75FBFF1EEC0F4100BC7817 /* AppDelegate.m */,
+				9F75FC011EEC0F4100BC7817 /* ViewController.h */,
+				9F75FC021EEC0F4100BC7817 /* ViewController.m */,
+				9F75FC041EEC0F4100BC7817 /* Main.storyboard */,
+				9F75FC071EEC0F4100BC7817 /* Assets.xcassets */,
+				9F75FC091EEC0F4100BC7817 /* LaunchScreen.storyboard */,
+				9F75FC0C1EEC0F4100BC7817 /* Info.plist */,
+				9F75FBFB1EEC0F4100BC7817 /* Supporting Files */,
+			);
+			path = AmrToWav;
+			sourceTree = "<group>";
+		};
+		9F75FBFB1EEC0F4100BC7817 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F75FBFC1EEC0F4100BC7817 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F75FC121EEC103B00BC7817 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F75FC131EEC103B00BC7817 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F75FC151EEC212900BC7817 /* AudioConverter */ = {
+			isa = PBXGroup;
+			children = (
+				9F75FC161EEC212900BC7817 /* amrwapper */,
+				9F75FC1B1EEC212900BC7817 /* lib */,
+				9F75FC1E1EEC212900BC7817 /* opencore-amrnb */,
+				9F75FC211EEC212900BC7817 /* opencore-amrwb */,
+				9F4F28881EEC23B500ACE041 /* AudioConverter.h */,
+				9F4F28891EEC23B500ACE041 /* AudioConverter.mm */,
+			);
+			path = AudioConverter;
+			sourceTree = "<group>";
+		};
+		9F75FC161EEC212900BC7817 /* amrwapper */ = {
+			isa = PBXGroup;
+			children = (
+				9F75FC171EEC212900BC7817 /* amrFileCodec.h */,
+				9F75FC181EEC212900BC7817 /* amrFileCodec.mm */,
+				9F4F28851EEC231400ACE041 /* wav.h */,
+				9F4F28861EEC231400ACE041 /* wav.mm */,
+			);
+			path = amrwapper;
+			sourceTree = "<group>";
+		};
+		9F75FC1B1EEC212900BC7817 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				9F75FC1C1EEC212900BC7817 /* libopencore-amrnb.a */,
+				9F75FC1D1EEC212900BC7817 /* libopencore-amrwb.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		9F75FC1E1EEC212900BC7817 /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				9F75FC1F1EEC212900BC7817 /* interf_dec.h */,
+				9F75FC201EEC212900BC7817 /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		9F75FC211EEC212900BC7817 /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				9F75FC221EEC212900BC7817 /* dec_if.h */,
+				9F75FC231EEC212900BC7817 /* if_rom.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F75FBF71EEC0F4100BC7817 /* AmrToWav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F75FC0F1EEC0F4100BC7817 /* Build configuration list for PBXNativeTarget "AmrToWav" */;
+			buildPhases = (
+				9F75FBF41EEC0F4100BC7817 /* Sources */,
+				9F75FBF51EEC0F4100BC7817 /* Frameworks */,
+				9F75FBF61EEC0F4100BC7817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmrToWav;
+			productName = AmrToWav;
+			productReference = 9F75FBF81EEC0F4100BC7817 /* AmrToWav.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F75FBF01EEC0F4100BC7817 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Allen Lee";
+				TargetAttributes = {
+					9F75FBF71EEC0F4100BC7817 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9F75FBF31EEC0F4100BC7817 /* Build configuration list for PBXProject "AmrToWav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F75FBEF1EEC0F4100BC7817;
+			productRefGroup = 9F75FBF91EEC0F4100BC7817 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F75FBF71EEC0F4100BC7817 /* AmrToWav */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F75FBF61EEC0F4100BC7817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F75FC0B1EEC0F4100BC7817 /* LaunchScreen.storyboard in Resources */,
+				9F75FC081EEC0F4100BC7817 /* Assets.xcassets in Resources */,
+				9F75FC061EEC0F4100BC7817 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F75FBF41EEC0F4100BC7817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F75FC031EEC0F4100BC7817 /* ViewController.m in Sources */,
+				9F75FC241EEC212900BC7817 /* amrFileCodec.mm in Sources */,
+				9F75FC001EEC0F4100BC7817 /* AppDelegate.m in Sources */,
+				9F75FBFD1EEC0F4100BC7817 /* main.m in Sources */,
+				9F4F28871EEC231400ACE041 /* wav.mm in Sources */,
+				9F4F288A1EEC23B500ACE041 /* AudioConverter.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F75FC041EEC0F4100BC7817 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F75FC051EEC0F4100BC7817 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F75FC091EEC0F4100BC7817 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F75FC0A1EEC0F4100BC7817 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F75FC0D1EEC0F4100BC7817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F75FC0E1EEC0F4100BC7817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F75FC101EEC0F4100BC7817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = AmrToWav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AmrToWav/AudioConverter/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trustdream.AmrToWav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F75FC111EEC0F4100BC7817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = AmrToWav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AmrToWav/AudioConverter/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trustdream.AmrToWav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F75FBF31EEC0F4100BC7817 /* Build configuration list for PBXProject "AmrToWav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F75FC0D1EEC0F4100BC7817 /* Debug */,
+				9F75FC0E1EEC0F4100BC7817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F75FC0F1EEC0F4100BC7817 /* Build configuration list for PBXNativeTarget "AmrToWav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F75FC101EEC0F4100BC7817 /* Debug */,
+				9F75FC111EEC0F4100BC7817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F75FBF01EEC0F4100BC7817 /* Project object */;
+}
