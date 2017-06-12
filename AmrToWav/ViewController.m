@@ -90,7 +90,7 @@
     
     NSString *wavSavePath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
     wavSavePath = [wavSavePath stringByAppendingPathComponent:@"convertToWav.wav"];
-    [AudioConverter convertAmrToWavAtPath:_amrFilePath wavSavePath:wavSavePath synchronize:YES completion:^(BOOL success, NSString * _Nullable resultPath) {
+    [AudioConverter convertAmrToWavAtPath:_amrFilePath wavSavePath:wavSavePath asynchronize:YES completion:^(BOOL success, NSString * _Nullable resultPath) {
         if (success) {
             _wavFilePath = resultPath;
             _wavFilePathLabel.text = _wavFilePath;
@@ -126,7 +126,7 @@
     
     NSString *amrSavePath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
     amrSavePath = [amrSavePath stringByAppendingPathComponent:@"convertToAmr.amr"];
-    [AudioConverter convertWavToAmrAtPath:_wavFilePath amrSavePath:amrSavePath synchronize:YES completion:^(BOOL success, NSString * _Nullable resultPath) {
+    [AudioConverter convertWavToAmrAtPath:_wavFilePath amrSavePath:amrSavePath asynchronize:YES completion:^(BOOL success, NSString * _Nullable resultPath) {
         if (success) {
             _amrFilePath = resultPath;
             _amrFilePathLabel.text = _amrFilePath;

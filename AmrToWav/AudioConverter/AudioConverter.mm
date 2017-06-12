@@ -11,9 +11,9 @@
 
 @implementation AudioConverter
 
-+ (void)convertAmrToWavAtPath:(NSString *)amrFilePath wavSavePath:(NSString *)resultSavePath synchronize:(BOOL)synchronize completion:(void(^)(BOOL success, NSString *resultPath))completion
++ (void)convertAmrToWavAtPath:(NSString *)amrFilePath wavSavePath:(NSString *)resultSavePath asynchronize:(BOOL)asynchronize completion:(void(^)(BOOL success, NSString *resultPath))completion
 {
-    if (synchronize) {
+    if (asynchronize) {
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             BOOL result = DecodeAMRFileToWAVEFile([amrFilePath cStringUsingEncoding:NSASCIIStringEncoding], [resultSavePath cStringUsingEncoding:NSASCIIStringEncoding]);
             if (completion) {
@@ -30,9 +30,9 @@
     }
 }
 
-+ (void)convertWavToAmrAtPath:(NSString *)wavFilePath amrSavePath:(NSString *)resultSavePath synchronize:(BOOL)synchronize completion:(void(^)(BOOL success, NSString *resultPath))completion
++ (void)convertWavToAmrAtPath:(NSString *)wavFilePath amrSavePath:(NSString *)resultSavePath asynchronize:(BOOL)asynchronize completion:(void(^)(BOOL success, NSString *resultPath))completion
 {
-    if (synchronize) {
+    if (asynchronize) {
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             BOOL result = EncodeWAVEFileToAMRFile([wavFilePath cStringUsingEncoding:NSASCIIStringEncoding], [resultSavePath cStringUsingEncoding:NSASCIIStringEncoding], 1, 16);
             if (completion) {
