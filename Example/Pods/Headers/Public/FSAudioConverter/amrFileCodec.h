@@ -1,0 +1,1 @@
+../../../../../FSAudioConverter/Classes/amrwapper/amrFileCodec.h

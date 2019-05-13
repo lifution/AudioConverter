@@ -1,0 +1,16 @@
+PODS:
+  - FSAudioConverter (1.0.0)
+
+DEPENDENCIES:
+  - FSAudioConverter (from `../`)
+
+EXTERNAL SOURCES:
+  FSAudioConverter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FSAudioConverter: 64cf65037e560ecf634d57fa1b475e4f3e230a71
+
+PODFILE CHECKSUM: 55c059e4be27abd0479b530d1b5846465363b8b9
+
+COCOAPODS: 1.7.0.beta.3

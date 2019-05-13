@@ -1,0 +1,6 @@
+framework module FSAudioConverter {
+  umbrella header "FSAudioConverter-umbrella.h"
+
+  export *
+  module * { export * }
+}

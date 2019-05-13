@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02184BAF14815D92DAAD8DF1A47A3DE8 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = AEC0ABC203CBB22CF0683C47FD641F3F /* interf_enc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		161FE9ED8AC7435DD04D86E6AE5BAD92 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 997A1A898DD41E056F3AE33AD168B5B9 /* amrFileCodec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D68468EC02B842E4086005C24471810 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 28DEEC14743D8C2456F7145E993AE699 /* if_rom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E838BD7AB9549BAB42A31EA1788695B /* FSAudioConverter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 416A10AEC7ED5BB15AE8CFCD2ADAE6A0 /* FSAudioConverter-dummy.m */; };
+		41068DA9C12FC6C3C3636219E427B978 /* AudioConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB59A648552038DF96E7D255D48D766A /* AudioConverter.mm */; };
+		7856E40BE793E15B0F2495564ADA5FC5 /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B02D7DA0EE2490C962FB8AEF64D2AA /* interf_dec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8150C2CCA091760E273C8A7BDD0FEE82 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7924CDFD23BD458B9CDF738A44613FB3 /* amrFileCodec.mm */; };
+		9C17D4BBC2C958EAE89C99734EA033F1 /* wav.h in Headers */ = {isa = PBXBuildFile; fileRef = BF517098C6E7A324839F8396E35452FF /* wav.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1F7DC700D0477E77E0C10AEDC0D4652 /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = E86635D14D8B3E1E5C7E3A8CC9F6888E /* wav.mm */; };
+		A3FD939D7E2242C5234DE13DB841F03F /* Pods-FSAudioConverter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DAF698C191BE4C0DD47BAF36D4EB18 /* Pods-FSAudioConverter_Example-dummy.m */; };
+		E1C003F70C72F4BB50EC78CBA1095730 /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = EE008726929EE5507166E4B5D84EE372 /* dec_if.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE4C6AAB7CD54799E6F689E52D058814 /* AudioConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE6E7A27950C91CD654C0AB132954FE /* AudioConverter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6CC25841198079CC2777FD0DEA0E826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C84BC2EA10D7CFE643AD69EE836025FB;
+			remoteInfo = FSAudioConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031050382F76BC8704168ED3F8F2741F /* Pods-FSAudioConverter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSAudioConverter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		043C80C2DF3678F8839CB60453EDC0B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0FBEE4DDE3B7D19E4BC0CB547040B4C3 /* FSAudioConverter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSAudioConverter.xcconfig; sourceTree = "<group>"; };
+		1541203117DC924E36BF734A2D945E44 /* Pods-FSAudioConverter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSAudioConverter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		28DEEC14743D8C2456F7145E993AE699 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		29DAF698C191BE4C0DD47BAF36D4EB18 /* Pods-FSAudioConverter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSAudioConverter_Example-dummy.m"; sourceTree = "<group>"; };
+		2D9159A96A45592D34E9CD58F45630B0 /* FSAudioConverter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FSAudioConverter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3BB50E65D452D0B6BC48ED3872C03906 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "FSAudioConverter/Libraries/libopencore-amrwb.a"; sourceTree = "<group>"; };
+		416A10AEC7ED5BB15AE8CFCD2ADAE6A0 /* FSAudioConverter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSAudioConverter-dummy.m"; sourceTree = "<group>"; };
+		4DD87689858B952833BC24B00876E968 /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "FSAudioConverter/Libraries/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		73B02D7DA0EE2490C962FB8AEF64D2AA /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		742A95C0F85D05BE6203291F6B5A9FA1 /* Pods-FSAudioConverter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSAudioConverter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		74F03953D38F1E539A20F7328D9030DA /* FSAudioConverter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSAudioConverter-prefix.pch"; sourceTree = "<group>"; };
+		7924CDFD23BD458B9CDF738A44613FB3 /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		997A1A898DD41E056F3AE33AD168B5B9 /* amrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC353A1338BDC85A4CF8F5E6E12CA79F /* libFSAudioConverter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFSAudioConverter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC0ABC203CBB22CF0683C47FD641F3F /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		B54A7677DA86AA26B004D344CBA672F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BF517098C6E7A324839F8396E35452FF /* wav.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		CE9024D9F13BC3B414F54F5859ED572E /* Pods-FSAudioConverter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSAudioConverter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DEFFB0D96B80CEC3B3131C0E30C84578 /* libPods-FSAudioConverter_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FSAudioConverter_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86635D14D8B3E1E5C7E3A8CC9F6888E /* wav.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
+		EE008726929EE5507166E4B5D84EE372 /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		FB59A648552038DF96E7D255D48D766A /* AudioConverter.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = AudioConverter.mm; path = FSAudioConverter/Classes/AudioConverter.mm; sourceTree = "<group>"; };
+		FFE6E7A27950C91CD654C0AB132954FE /* AudioConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AudioConverter.h; path = FSAudioConverter/Classes/AudioConverter.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A06BB2D1988F68AF35C1208E85E634A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3CB6440963DB798F48EA53E08EA8491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15F9DB09861031ECE04125C0BB731482 /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				73B02D7DA0EE2490C962FB8AEF64D2AA /* interf_dec.h */,
+				AEC0ABC203CBB22CF0683C47FD641F3F /* interf_enc.h */,
+			);
+			name = "opencore-amrnb";
+			path = "FSAudioConverter/Classes/opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		32A80CAC3F6B8B9B23AD4BA81A94432D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				466EB845CCAAA7ADC0BA7376A4ADCBFD /* Pods-FSAudioConverter_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		426CB51B8E06E7213C7F3DC62B313CF8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBC4C16DC56075C870DD419B3ED33D0C /* FSAudioConverter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		466EB845CCAAA7ADC0BA7376A4ADCBFD /* Pods-FSAudioConverter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CE9024D9F13BC3B414F54F5859ED572E /* Pods-FSAudioConverter_Example-acknowledgements.markdown */,
+				1541203117DC924E36BF734A2D945E44 /* Pods-FSAudioConverter_Example-acknowledgements.plist */,
+				29DAF698C191BE4C0DD47BAF36D4EB18 /* Pods-FSAudioConverter_Example-dummy.m */,
+				742A95C0F85D05BE6203291F6B5A9FA1 /* Pods-FSAudioConverter_Example.debug.xcconfig */,
+				031050382F76BC8704168ED3F8F2741F /* Pods-FSAudioConverter_Example.release.xcconfig */,
+			);
+			name = "Pods-FSAudioConverter_Example";
+			path = "Target Support Files/Pods-FSAudioConverter_Example";
+			sourceTree = "<group>";
+		};
+		4C7BA8A9578FD914FA06EB4521ED0F48 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2D9159A96A45592D34E9CD58F45630B0 /* FSAudioConverter.podspec */,
+				043C80C2DF3678F8839CB60453EDC0B6 /* LICENSE */,
+				B54A7677DA86AA26B004D344CBA672F8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		84EAA90662A82D51CF089E6195975161 /* amrwapper */ = {
+			isa = PBXGroup;
+			children = (
+				997A1A898DD41E056F3AE33AD168B5B9 /* amrFileCodec.h */,
+				7924CDFD23BD458B9CDF738A44613FB3 /* amrFileCodec.mm */,
+				BF517098C6E7A324839F8396E35452FF /* wav.h */,
+				E86635D14D8B3E1E5C7E3A8CC9F6888E /* wav.mm */,
+			);
+			name = amrwapper;
+			path = FSAudioConverter/Classes/amrwapper;
+			sourceTree = "<group>";
+		};
+		A28FA4F952986F126D54146CB2D99D26 /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				EE008726929EE5507166E4B5D84EE372 /* dec_if.h */,
+				28DEEC14743D8C2456F7145E993AE699 /* if_rom.h */,
+			);
+			name = "opencore-amrwb";
+			path = "FSAudioConverter/Classes/opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		BB57606730DE0AE8ABAAE57D37B4397B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DD87689858B952833BC24B00876E968 /* libopencore-amrnb.a */,
+				3BB50E65D452D0B6BC48ED3872C03906 /* libopencore-amrwb.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7F48F2AB3A0A5C3E339BC6FCE872CFC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FBEE4DDE3B7D19E4BC0CB547040B4C3 /* FSAudioConverter.xcconfig */,
+				416A10AEC7ED5BB15AE8CFCD2ADAE6A0 /* FSAudioConverter-dummy.m */,
+				74F03953D38F1E539A20F7328D9030DA /* FSAudioConverter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FSAudioConverter";
+			sourceTree = "<group>";
+		};
+		CBC4C16DC56075C870DD419B3ED33D0C /* FSAudioConverter */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6E7A27950C91CD654C0AB132954FE /* AudioConverter.h */,
+				FB59A648552038DF96E7D255D48D766A /* AudioConverter.mm */,
+				84EAA90662A82D51CF089E6195975161 /* amrwapper */,
+				BB57606730DE0AE8ABAAE57D37B4397B /* Frameworks */,
+				15F9DB09861031ECE04125C0BB731482 /* opencore-amrnb */,
+				A28FA4F952986F126D54146CB2D99D26 /* opencore-amrwb */,
+				4C7BA8A9578FD914FA06EB4521ED0F48 /* Pod */,
+				C7F48F2AB3A0A5C3E339BC6FCE872CFC /* Support Files */,
+			);
+			name = FSAudioConverter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				426CB51B8E06E7213C7F3DC62B313CF8 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				EFB0957014984F8897B6E2A0775DED3C /* Products */,
+				32A80CAC3F6B8B9B23AD4BA81A94432D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFB0957014984F8897B6E2A0775DED3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC353A1338BDC85A4CF8F5E6E12CA79F /* libFSAudioConverter.a */,
+				DEFFB0D96B80CEC3B3131C0E30C84578 /* libPods-FSAudioConverter_Example.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		661C771BD638EFEED2227D6B2A5F8046 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C690AA7431FB9F0C4D7BB3039F29B369 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161FE9ED8AC7435DD04D86E6AE5BAD92 /* amrFileCodec.h in Headers */,
+				FE4C6AAB7CD54799E6F689E52D058814 /* AudioConverter.h in Headers */,
+				E1C003F70C72F4BB50EC78CBA1095730 /* dec_if.h in Headers */,
+				3D68468EC02B842E4086005C24471810 /* if_rom.h in Headers */,
+				7856E40BE793E15B0F2495564ADA5FC5 /* interf_dec.h in Headers */,
+				02184BAF14815D92DAAD8DF1A47A3DE8 /* interf_enc.h in Headers */,
+				9C17D4BBC2C958EAE89C99734EA033F1 /* wav.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		89FCA7F224F1338E31311AECCD14E8EC /* Pods-FSAudioConverter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC42C37D2C66C9B8E18BE9F6998055D2 /* Build configuration list for PBXNativeTarget "Pods-FSAudioConverter_Example" */;
+			buildPhases = (
+				661C771BD638EFEED2227D6B2A5F8046 /* Headers */,
+				8488AE8419E84A4A7A70EF5067D54B3D /* Sources */,
+				C3CB6440963DB798F48EA53E08EA8491 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36431E39FD8EFD5270E72E60AE46682E /* PBXTargetDependency */,
+			);
+			name = "Pods-FSAudioConverter_Example";
+			productName = "Pods-FSAudioConverter_Example";
+			productReference = DEFFB0D96B80CEC3B3131C0E30C84578 /* libPods-FSAudioConverter_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C84BC2EA10D7CFE643AD69EE836025FB /* FSAudioConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C28658180D57CFE3E2B629C79A4AE5 /* Build configuration list for PBXNativeTarget "FSAudioConverter" */;
+			buildPhases = (
+				C690AA7431FB9F0C4D7BB3039F29B369 /* Headers */,
+				D38E64AFED51C8B5FF0326C2AFC40BEB /* Sources */,
+				A06BB2D1988F68AF35C1208E85E634A9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSAudioConverter;
+			productName = FSAudioConverter;
+			productReference = AC353A1338BDC85A4CF8F5E6E12CA79F /* libFSAudioConverter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EFB0957014984F8897B6E2A0775DED3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C84BC2EA10D7CFE643AD69EE836025FB /* FSAudioConverter */,
+				89FCA7F224F1338E31311AECCD14E8EC /* Pods-FSAudioConverter_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8488AE8419E84A4A7A70EF5067D54B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FD939D7E2242C5234DE13DB841F03F /* Pods-FSAudioConverter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38E64AFED51C8B5FF0326C2AFC40BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8150C2CCA091760E273C8A7BDD0FEE82 /* amrFileCodec.mm in Sources */,
+				41068DA9C12FC6C3C3636219E427B978 /* AudioConverter.mm in Sources */,
+				3E838BD7AB9549BAB42A31EA1788695B /* FSAudioConverter-dummy.m in Sources */,
+				A1F7DC700D0477E77E0C10AEDC0D4652 /* wav.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36431E39FD8EFD5270E72E60AE46682E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSAudioConverter;
+			target = C84BC2EA10D7CFE643AD69EE836025FB /* FSAudioConverter */;
+			targetProxy = B6CC25841198079CC2777FD0DEA0E826 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6335434865FF90D894956F6DE36D77C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742A95C0F85D05BE6203291F6B5A9FA1 /* Pods-FSAudioConverter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C74026DB86546AD7344CE35F87884C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FBEE4DDE3B7D19E4BC0CB547040B4C3 /* FSAudioConverter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FSAudioConverter/FSAudioConverter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FSAudioConverter;
+				PRODUCT_NAME = FSAudioConverter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD0C26DF3FD7CBD6853C56BF912F4D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 031050382F76BC8704168ED3F8F2741F /* Pods-FSAudioConverter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE80981EFF8006C069B1A47AF55F7435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FBEE4DDE3B7D19E4BC0CB547040B4C3 /* FSAudioConverter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FSAudioConverter/FSAudioConverter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FSAudioConverter;
+				PRODUCT_NAME = FSAudioConverter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C28658180D57CFE3E2B629C79A4AE5 /* Build configuration list for PBXNativeTarget "FSAudioConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE80981EFF8006C069B1A47AF55F7435 /* Debug */,
+				C74026DB86546AD7344CE35F87884C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC42C37D2C66C9B8E18BE9F6998055D2 /* Build configuration list for PBXNativeTarget "Pods-FSAudioConverter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6335434865FF90D894956F6DE36D77C5 /* Debug */,
+				DD0C26DF3FD7CBD6853C56BF912F4D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
