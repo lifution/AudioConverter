@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     :file => 'LICENSE'
   }
   s.source    = { 
-    :git => 'git@github.com:lifution/AudioConverter.git', 
+    :git => 'https://github.com/lifution/AudioConverter.git', 
     :tag => s.version.to_s
   }
   
