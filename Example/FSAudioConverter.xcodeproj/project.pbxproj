@@ -376,6 +376,8 @@
 			baseConfigurationReference = D69BB2DAE94DB7B63F9D6579 /* Pods-FSAudioConverter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FSAudioConverter/FSAudioConverter-Prefix.pch";
 				INFOPLIST_FILE = "FSAudioConverter/FSAudioConverter-Info.plist";
@@ -392,6 +394,8 @@
 			baseConfigurationReference = F1C02E600478F226D8A89387 /* Pods-FSAudioConverter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FSAudioConverter/FSAudioConverter-Prefix.pch";
 				INFOPLIST_FILE = "FSAudioConverter/FSAudioConverter-Info.plist";

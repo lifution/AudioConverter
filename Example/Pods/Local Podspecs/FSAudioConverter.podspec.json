@@ -9,8 +9,11 @@
     "file": "LICENSE"
   },
   "source": {
-    "git": "git@github.com:lifution/AudioConverter.git",
+    "git": "https://github.com/lifution/AudioConverter.git",
     "tag": "1.0.0"
+  },
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
   },
   "requires_arc": true,
   "platforms": {

@@ -20,6 +20,9 @@ Pod::Spec.new do |s|
     :git => 'https://github.com/lifution/AudioConverter.git', 
     :tag => s.version.to_s
   }
+  s.pod_target_xcconfig = {
+    'ENABLE_BITCODE' => 'NO'
+  }
   
   s.requires_arc = true
   s.ios.deployment_target = '6.0'
