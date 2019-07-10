@@ -9,8 +9,11 @@ Xcode8.0+, iOS6.0+
 
 1. 使用 CocoaPods 安装，在你的 Podfile 中加入 `pod 'FSAudioConverter'`。
    * 需要注意的是，如果使用 CocoaPods 安装则不可使用 `use_frameworks!`，必须以静态库的方式引入，否则在使用的时候会编译不通过。
-
 2. 或者把 `FSAudioConverter` 文件夹直接加入到你的项目中。
+
+## 注意 ⚠️ :
+
+`libopencore-amr` 不支持 Bitcode，因此本组件不适合用在 `Enable Bitcode = Yes` 的 TARGET 中，如果你的项目不需要开启 Bitcode，那么你可以在 `TARGETS` 中找到对应的 TARGET，然后在 `Build Settings` 中搜索 `Enable Bitcode` 并将其设置为 `No`。
 
 ## 使用示例：
 
