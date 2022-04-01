@@ -6,13 +6,13 @@ A tool based on `libopencore-amr` package to convert audio between `AMR` format 
 iOS6.0+, Xcode8.0+
 
 # Installation:
-## CocoaPods
+### CocoaPods
 To integrate AudioConverter into your Xcode project using CocoaPods, specify it in your Podfile:
 ```Ruby
 pod 'FSAudioConverter'
 ```
 > If you use CocoaPods to install, you cannot use `use_frameworks!`, it must be imported as a static library, otherwise the compilation will fail.
-## Manually
+### Manually
 If you prefer not to use any of the aforementioned dependency managers, you can integrate FSAudioConverter into your project manually. Download the repository and add the `FSAudioConverter` folder to your project.
 
 # Important:
